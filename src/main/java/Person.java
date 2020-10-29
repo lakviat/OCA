@@ -4,7 +4,7 @@ public class Person {
     private String name;
     private int age = 25;
     //Compilation fails because this supposed to be a method overloading
-    //
+
     public Person (String name){
         setName(name);
 
@@ -35,5 +35,15 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public static void main(String[] args) {
+        Person p1 = new Person("Jesse");
+        Person p2 = new Person("Walter", 52);
+        System.out.println(p1.show());
+        System.out.println(p2.show());
+
+        // this is examples when constructor trying to access another constructor and set value
+        // that wouldn't work that way
     }
 }

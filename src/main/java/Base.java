@@ -11,5 +11,7 @@ public class Base {
         Base b4 = (DerivedA) b3;
         b1.test();
         b4.test();
+        // Drived B Dervied B  // the right answer is
+        // whatever is coming last will get called
     }
 }
