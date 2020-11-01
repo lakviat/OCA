@@ -17,5 +17,7 @@ public class SumTest {
         doSum(10.0,20.0);
 
         //Everything works fine here the answer is 10,20 /and / 10.0 20.0
+        // you can access the method directly calling it from the main class
+        // if they are in the same class only
     }
 }
