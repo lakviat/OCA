@@ -7,6 +7,7 @@ public class gettingRope2 {
         System.out.println(length);
 
 
+
         // when improting static -- > means you will import the static block
         // when importing packages if you want to get access to instance variables
         // we need to import static as well that is important

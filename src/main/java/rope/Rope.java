@@ -3,8 +3,6 @@ package rope;
 public class Rope {
 
     public static int length = 5;
-    public static int kotok = 10;
-    public static int sigein;
 
     static {
         length = 10;

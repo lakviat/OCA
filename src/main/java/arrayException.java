@@ -1,3 +1,5 @@
+import java.util.Collections.*;
+import java.util.Collection.*;
 public class arrayException {
     public static void main(String[] args) {
         int nums1[] = new int[3];
